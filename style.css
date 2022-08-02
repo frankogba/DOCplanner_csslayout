@@ -1,0 +1,475 @@
+* {
+    padding: 0;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#navBar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navLinks  {
+    display: flex;
+    width: 20%;
+    margin-left: 430px;
+    justify-content: space-between;
+    list-style: none;
+}
+
+#navLinks a {
+    text-decoration: none;
+}
+
+#navLinks a:hover {
+    color: #4dd1b0;
+
+}
+.dropdown:hover{
+    color: #4dd1b0;
+}
+
+.dropbtn {
+    display: flex;
+    font-size: 16px;    
+}
+
+.dropdown-content  {
+   display: none;
+   position: absolute; 
+}
+.dropdown {
+    position: relative;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+    background-color: #e9f2ed;
+}
+
+.dropdown :hover .dropbtn {
+    text-decoration: none;
+}
+
+
+.dropdown-content a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: white;
+    width: 170px;
+    line-height: 1.75;
+    color: #bec2c0;
+
+}
+.dropdown-content a:hover {
+    color:#4dd1b0 ;
+}
+
+.logoDocplan img{
+    width: 500px;
+    margin-left: 520px;
+    margin-bottom: 20px;
+}
+
+.logoDocplan h1 {
+    text-align: center;
+    color: #4dd1b0;
+    margin-bottom: 20px;
+}
+
+body ::selection {
+    background-color:#00b39b;
+    color: white;
+}
+
+.subject {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: .8em 0;
+    line-height: 1.75;
+    
+}
+
+.subject h5{
+    font-family: sans-serif;
+    font-size: medium;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.flex .col-1 {
+    width: 300px;
+    max-width: 100%;
+    background-color: #4dd173;
+    height: 270px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+
+
+.flex .patient h3 {
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-bottom: 15px;
+}
+.flex .patient p {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.flex .country {
+    margin-top: 40px;
+    background: transparent;
+    color: whitesmoke;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.flex .country option {
+    background: #d1c8ae;
+}
+.flex .col-2 {
+    width: 300px;
+    max-width: 100%;
+    background-color: blue;
+    height: 270px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.flex .doctor h3 {
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-bottom: 15px
+}
+.flex .doctor p{
+    color: white;
+    font-size: 18px;
+    margin-bottom: 15px;
+
+}
+.flex .choose {
+    margin-top: 40px;
+    background: transparent;
+    color: whitesmoke;
+    font-size: 18px;
+    text-decoration: underline;
+}
+.flex .choose option {
+    background: #d1c8ae;
+}
+.flex .col-3 {
+    width: 300px;
+    max-width: 100%;
+    background-color:#1f1e1d ;
+    height: 270px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.flex .clinic h3 {
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-bottom: 15px
+}
+.flex .clinic p{
+    color: white;
+    font-size: 18px;
+    margin-bottom: 15px;
+
+}
+.flex .choice {
+    margin-top: 10px;
+    background: transparent;
+    color: whitesmoke;
+    font-size: 18px;
+    text-decoration: underline;
+}
+.flex .choice option {
+    background: #d1c8ae;
+}
+.flex .choice-2 {
+    margin-top: 10px;
+    background: transparent;
+    color: whitesmoke;
+    font-size: 18px;
+    text-decoration: underline;
+}
+.flex .choice-2 option {
+    background: #d1c8ae;
+}
+
+.heading h3 {
+    color: #4dd1b0;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+    display: flex;
+    font-size: x-large;
+    margin-bottom: 10px;
+}
+
+.heading p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+    display: flex;
+    font-size: small;
+}
+
+.signage_1 {
+    width: 250px;
+    max-width: 100%;
+    background-color: whitesmoke;
+    height: 270px;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+
+.signage_1 h3 {
+    color: #4dd1b0;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    text-align: center;
+    
+}
+.signage_1 .photo {
+    margin-left: 100px;
+}
+.signage_1 p{
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    line-height: 20px;
+    
+}
+
+.signage_2 {
+    width: 250px;
+    max-width: 100%;
+    background-color: whitesmoke;
+    height: 270px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.signage_2 h3 {
+    color: #4dd1b0;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.signage_2 .foto {
+    margin-left: 80px;
+    margin-bottom: 30px;
+}
+.signage_2 p{
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+}
+
+.signage_3 {
+    width: 220px;
+    max-width: 100%;
+    background-color: whitesmoke;
+    height: 270px;
+    border-radius: 10px;
+    padding: 20px;  
+}
+.signage_3 img {
+    margin-left: 70px;
+}
+.signage_3 h3{
+    color: #4dd1b0;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-bottom: 20px;   
+}
+.signage_3 p{
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+   
+.signage_4 {
+    width: 220px;
+    max-width: 100%;
+    background-color: whitesmoke;
+    height: 270px;
+    border-radius: 10px;
+    padding: 20px;  
+}
+.signage_4 img {
+    margin-left: 70px;
+}
+.signage_4 h3{
+    color: #4dd1b0;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-bottom: 20px;   
+}
+.signage_4 p{
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+
+.statement h2{
+    color: #4dd173;
+    text-align: center;
+    font-family: sans-serif;
+}
+.statement p {
+    text-align: center;
+    font-size: small;
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+
+.projects-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 40px;
+    border: .8em;
+}
+
+.projects-section .btn {
+    background-color: #3464eb;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    letter-spacing: .04em;
+    font-size: .75rem;
+    letter-spacing: .04em;
+    font-size: .75rem;
+    padding: 1.1em 1.5em;
+    
+    
+    
+}
+
+.projects-section img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.projects-section span {
+font-weight: bolder;
+font-family: sans-serif;
+}
+
+.open h2 {
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+margin-top: 30px;
+}
+.open .btn {
+    margin-left: 48em;
+    border: none;
+    border-radius: 4px;
+    padding: 1.1666666667em 1.5em;
+    background: #3d83df;
+    font-family: Roboto,Arial,sans-serif;
+    line-height: 1em;
+    color: #fff;
+    font-size: .75rem;
+    letter-spacing: .04em;
+    font-size: .75rem;
+    margin-top: 10px;    
+}
+
+footer {
+    text-align: center;
+    letter-spacing: .04em;
+    justify-content: space-around;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+    font-size: small;
+    
+}
+
+.sub-footer span {
+    color: #375fcc;
+}
+
+.sub-footer span:hover {
+    text-decoration: underline;
+}
+
+.pagecover {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 40px;
+    border: .8em;
+}
+
+.pagebook {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 40px;
+    border: .8em;  
+}
+.coverpage {
+   background: #d8ede1;
+   margin: 0 -10px;;
+   box-sizing: inherit;
+   display: flexbox;
+} 
+
+.brandy h2 {
+    color: #4dd1b0;
+}
+.constant {
+    display: flexbox;
+}
+.constant {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.constant p {
+    text-align: center;
+    color: #4dd1b0 ;
+    font-size: larger;
+    font-weight: 100;
+    width: 160px;
+    margin-top: 20px;
+}
+
+.constant .logos {
+display: inline-flex;
+fill: #ababab;
+list-style: none;
+flex-wrap: wrap;
+width: 800px;
+font-size: 10px;
+align-items: center;
+justify-content: space-evenly;
+margin-bottom: 10px;
+line-height: 1.75em;
+}
